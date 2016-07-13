@@ -1,0 +1,38 @@
+---
+title: "ggplot intro"
+author: "Martin"
+date: "13 July 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Plan
+
+We'll load libraries and learn ggplot2.
+
+Here we write in Markdown 
+
+# hashtags mean headers.
+
+summary(cars)
+
+```{r name your chunks}
+# here we write in R.
+
+# hashtags mean comment
+
+summary(cars)
+```
+
+## Load libraries
+```{r}
+# loading libraries
+
+library(dplyr)
+library(gapminder)
+library(ggplot2) # install.packages('ggplot2')
+```
+
